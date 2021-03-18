@@ -17,12 +17,14 @@ h2 {
 
 /* necessary for CSS varaiables */
 :root {
-  --primary-color:orange;;
+  --primary-color:#6D28D9;
   --grey:grey;
+  --dirty-white:#D1D5DB;
 }
 
 body {
     font-family: 'Montserrat', sans-serif;
+    margin:0px;
 }
 /* top right bottom left */
 hr {
@@ -116,4 +118,34 @@ hr {
 
 .heading-inverted {
     color : var(--primary-color);
+}
+
+.section {
+    padding:2rem;
+}
+
+.section h3 {
+    text-align:center;
+}
+
+.ow {
+    background-color : var(--dirty-white);
+}
+
+/* Footer */
+
+.footer {
+    background-color: var(--primary-color);
+    padding:2rem 1rem;
+    text-align:center;
+    color:white;
+    border-top-right-radius: 1rem;
+}
+.footer .link {
+    color:white;
+    padding-inline-start:0px;
+}
+
+.footer-header {
+    font-weight:bold;
 }
