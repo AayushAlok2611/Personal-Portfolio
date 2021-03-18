@@ -17,7 +17,8 @@ h2 {
 
 /* necessary for CSS varaiables */
 :root {
-  --primary-color:orange;
+  --primary-color:orange;;
+  --grey:grey;
 }
 
 body {
@@ -67,3 +68,52 @@ hr {
 
 /* Nav */
 
+.navigation {
+    background-color: var(--primary-color);
+    color: white;
+    padding:1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+.navigation .link {
+    color:white;
+}
+.navigation .nav-pills {
+    text-align: right;
+}
+
+.navigation .nav-brand {
+    font-weight: bold;
+}
+
+.navigation .link-active
+{
+    font-weight: bold;
+}
+
+/* Header */
+.hero {
+    padding:2rem;
+}
+
+.hero .hero-img {
+    max-width:350px;
+    display:block;
+    margin:auto;
+}
+
+/* gives same result as above code
+.hero-img {
+    max-width:350px;
+    display:block;
+    margin:auto;
+} */
+
+.hero .hero-heading {
+    padding-top:1rem;
+    color:var(--grey);
+}
+
+.heading-inverted {
+    color : var(--primary-color);
+}
