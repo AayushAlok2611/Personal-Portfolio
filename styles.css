@@ -15,12 +15,17 @@ h2 {
 } */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;900&display=swap');
 
+/* necessary for CSS varaiables */
 :root {
   --primary-color:orange;
 }
 
 body {
     font-family: 'Montserrat', sans-serif;
+}
+/* top right bottom left */
+hr {
+    margin : 3rem 0rem;
 }
 /* containers */
 .container {
@@ -49,3 +54,16 @@ body {
     border-radius:0.5rem;
     border : 1px solid var(--primary-color); 
 }
+
+/* lists */
+.list-non-bullet {
+    list-style: none;
+}
+
+.list-item-inline {
+    display : inline;
+    padding: 0rem 0.5rem;
+}
+
+/* Nav */
+
