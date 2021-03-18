@@ -1,0 +1,51 @@
+/* body{
+    color:orange;
+}
+h1 {
+    color : blue;
+}
+h2 {
+    color :green;
+}
+#lib-header {
+    color : pink;
+}
+.para {
+    color : red;
+} */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;900&display=swap');
+
+:root {
+  --primary-color:orange;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+/* containers */
+.container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.container-center {
+    max-width: 600px;
+    margin:auto;
+}
+/* Links */
+.link {
+    text-decoration:none;
+    padding:0.5rem 1rem;
+}
+/* it goes like top right bottom left */
+.primary-link {
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    color : white;
+}
+
+.secondary-link {
+    color :var(--primary-color);
+    border-radius:0.5rem;
+    border : 1px solid var(--primary-color); 
+}

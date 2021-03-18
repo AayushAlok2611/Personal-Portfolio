@@ -5,10 +5,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Component Library</title>
+    <!-- 1st way -->
+    <!-- <style>
+        body {
+            color : orange;
+        }
+    </style> -->
+    <link href = "styles.css" rel="stylesheet">
 </head>
 <body>
-    <h1> My Component Library</h1>
-    <p> I am creating a component library to make it easy for creating my portfolio</p>
+    <!-- 2nd way -->
+    <!-- <h1 style = "color:red"> My Component Library</h1> -->
+
+    <!-- using "id" attribute as CSS selector -->
+    <!-- <h1 id = "lib-header"> My Component Library</h1>
+
+    using "class" attribute as CSS selector
+    <p class="para"> I am creating a component library to make it easy for creating my portfolio</p> -->
+
+    <h1 > My Component Library</h1>
+    <p > I am creating a component library to make it easy for creating my portfolio</p>
     <hr>
     <h2>@typography</h2>
     <h1>H1 heading </h1>
@@ -16,20 +32,20 @@
     <p> Small para here. </p>
     <small>Use of "small" tag</small>
     <hr>
-    <h2> @containers </h2>
+    <h2> @Containers </h2>
     <p> //For containers we can freey use Div tags since container have no semantic meaning and they don't trigger any special effects for the screen readers, which are used by specially abled people. </p>
     <h3> Fluid container </h3>
-    <div> This is a fluid container and it goes till the end of the page.(Done using CSS) </div>
+    <div class="container "> This is a fluid container and it goes till the end of the page.(Done using CSS) </div>
 
     <h3> Centered container </h3>
-    <div> This is a centered container and it goes till the specifed width.(Done using CSS) </div>
+    <div class="container container-center"> This is a centered container and it goes till the specifed width.(Done using CSS) </div>
 
     <hr>
 
     <h2>@Links</h2>
 
-    <a href = "https://aayush-alok.netlify.app/">Primary Link</a>
-    <a href = " ">Secondary link</a>
+    <a href = "https://aayush-alok.netlify.app/" class="link primary-link">Primary Link</a>
+    <a href = " " class="link secondary-link">Secondary link</a>
 
     <hr>
     <h2>@Lists</h2>
