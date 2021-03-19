@@ -93,6 +93,10 @@ hr {
 .navigation .link-active
 {
     font-weight: bold;
+    color: var(--primary-color);
+    background-color:white;
+    border-bottom-left-radius: .5rem;
+    border-bottom-right-radius: .5rem;
 }
 
 /* Header */
