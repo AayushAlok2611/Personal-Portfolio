@@ -32,14 +32,14 @@ hr {
 }
 /* containers */
 .container {
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding: 0rem 1rem;
 }
 
 .container-center {
     max-width: 600px;
     margin:auto;
 }
+/* paragraphs */
 /* Links */
 .link {
     text-decoration:none;
@@ -50,12 +50,14 @@ hr {
     background-color: var(--primary-color);
     border-radius: 0.5rem;
     color : white;
+    margin: 1rem 1rem 1rem 0rem;
 }
 
 .secondary-link {
     color :var(--primary-color);
     border-radius:0.5rem;
-    border : 1px solid var(--primary-color); 
+    border : 1px solid var(--primary-color);
+    margin: 1rem 1rem 1rem 0rem;
 }
 
 /* lists */
@@ -112,6 +114,7 @@ hr {
 } */
 
 .hero .hero-heading {
+    text-align:center;
     padding-top:1rem;
     color:var(--grey);
 }
@@ -129,6 +132,7 @@ hr {
 }
 
 .ow {
+    padding:.1rem;
     background-color : var(--dirty-white);
 }
 
